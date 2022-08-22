@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.app__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.app__title{
+    color: #5353f1;
+}
+.app__btn{
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5353f1;
+    color: white;
+}
+
+h1, h2, h3, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #aaa9;
+    transition: transform 200ms ease;
+    background-color: white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+}
+
+.card__title {
+    color: #5353f1;
+    margin-bottom: 10px;
+}
+
+.card__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    color:darkgray;
+}
+
+.card__span {
+    color: black;
+    transform: translateX(-10px);
+    padding: 0 10px;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.card__btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card__btn:nth-child(1) {
+    background-color:royalblue;
+    color: white;
+}
+
+.card__btn:nth-child(2) {
+    background-color: crimson;
+    color: white;
+}
